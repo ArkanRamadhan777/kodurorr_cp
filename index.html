@@ -1,0 +1,496 @@
+﻿<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumah Impian</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="icon" href="Group 1.png" type="image/x-icon">
+  </head>
+  <body>
+    <header class="hero-section">
+      <nav class="navbar navbar-expand-lg navbar-dark py-3" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+            <img src="Group 1.png" alt="" width="30">
+            <span class=""></span>Rumah Impian
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto gap-lg-3 text-uppercase small-nav">
+              <li class="nav-item"><a class="nav-link active" href="#">Branda</a></li>
+              <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+              <li class="nav-item"><a class="nav-link" href="#fitur">Fitur</a></li>
+              <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+            </ul>
+            <div class="d-flex gap-2">
+              <button class="btn btn-link nav-btn-link text-white text-uppercase">Daftar</button>
+              <button class="btn btn-light rounded-0 px-4 text-uppercase fw-bold">Masuk</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container hero-content">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6 text-white">
+            <h1 class="hero-title mb-4">Membantu Temukan <br />Rumah Impian.</h1>
+            <p class="hero-sub mb-4">
+              <b>Rumah Impian</b> hadir untuk temukan rumah terbaik untukmu, untuk dijual ataupun disewa
+              dengan sumber terpercaya.
+            </p>
+            <a href="#rekomendasi" class="btn btn-light rounded-0 px-4 py-3 fw-bold" style="color: #01924c;">
+              Temukan Rumah
+            </a>
+            <a href="#layanan" class="hero-scroll" aria-label="Lihat layanan">
+              <i class="bi bi-chevron-right fs-4"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="d-none d-lg-block hero-visual">
+        <img class="hero-house" src="Mask Group (6).png" alt="" />
+      </div>
+    </header>
+
+    <section id="layanan" class="section-light py-5">
+      <div class="container py-4">
+        <h2 class="text-center section-title">Layanan Kami</h2>
+        <p class="text-center section-sub">Rumah impian hadir menjadi solusi bagi kamu</p>
+
+        <div class="row g-4 mt-3">
+          <div class="col-lg-4">
+            <div class="service-card service-card-active h-100">
+              <div class="service-icon">
+                <img src="house 1.png" alt="" />
+              </div>
+              <h3 class="fw-bold">Property Baru</h3>
+              <p>
+                Rumah impian kini jadi kenyataan. Beli rumah baru dengan fasilitas terbaik dengan
+                lingkungan yang nyaman.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <img src="assets 1.png" alt="" />
+              </div>
+              <h3 class="fw-bold">Sewa Rumah</h3>
+              <p>
+                Sewa rumah yang indah untuk keluarga anda, pilihan terbaik untuk tempat tinggal
+                keluarga mu.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <img src="town 1.png" alt="" />
+              </div>
+              <h3 class="fw-bold">Beli Rumah</h3>
+              <p>
+                Beli rumah sempurna dengan harga terbaik kualitas terjamin dari sumber terpercaya.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-banner py-5">
+      <div class="container py-5 text-center text-white">
+        <h2 class="section-title text-white mb-2">Temukan Rumah Impianmu</h2>
+        <p class="mb-4">
+          sekarang Anda dapat menghemat semua hal stres, waktu, dan biaya tersembunyi, dengan
+          ratusan rumah untuk anda
+        </p>
+
+        <div class="search-box mx-auto">
+          <ul class="nav nav-tabs border-0" id="searchTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#jual" type="button">
+                Jual
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#sewa" type="button">
+                Sewa
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#baru" type="button">
+                Property Baru
+              </button>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="jual">
+              <form class="row g-0 search-form">
+                <div class="col-md-3">
+                  <div class="search-field">
+                    <i class="bi bi-house"></i>
+                    <input class="form-control" placeholder="Tipe Rumah" />
+                    <i class="bi bi-chevron-down"></i>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="search-field">
+                    <i class="bi bi-cash-stack"></i>
+                    <input class="form-control" placeholder="Range Harga" />
+                    <i class="bi bi-chevron-down"></i>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="search-field search-field-plain">
+                    <input class="form-control" placeholder="cari berdasarkan lokasi, ID, Property" />
+                  </div>
+                </div>
+                <div class="col-md-2"><button class="btn btn-success w-100 h-100 rounded-0">Cari</button></div>
+              </form>
+            </div>
+            <div class="tab-pane fade" id="sewa">
+              <form class="row g-0 search-form">
+                <div class="col-md-3">
+                  <div class="search-field">
+                    <i class="bi bi-house"></i>
+                    <input class="form-control" placeholder="Tipe Rumah" />
+                    <i class="bi bi-chevron-down"></i>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="search-field">
+                    <i class="bi bi-cash-stack"></i>
+                    <input class="form-control" placeholder="Budget Sewa" />
+                    <i class="bi bi-chevron-down"></i>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="search-field search-field-plain">
+                    <input class="form-control" placeholder="cari berdasarkan lokasi, ID, Property" />
+                  </div>
+                </div>
+                <div class="col-md-2"><button class="btn btn-success w-100 h-100 rounded-0">Cari</button></div>
+              </form>
+            </div>
+            <div class="tab-pane fade" id="baru">
+              <form class="row g-0 search-form">
+                <div class="col-md-3">
+                  <div class="search-field">
+                    <i class="bi bi-house"></i>
+                    <input class="form-control" placeholder="Tipe Rumah" />
+                    <i class="bi bi-chevron-down"></i>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="search-field">
+                    <i class="bi bi-cash-stack"></i>
+                    <input class="form-control" placeholder="Harga" />
+                    <i class="bi bi-chevron-down"></i>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="search-field search-field-plain">
+                    <input class="form-control" placeholder="cari berdasarkan lokasi, ID, Property" />
+                  </div>
+                </div>
+                <div class="col-md-2"><button class="btn btn-success w-100 h-100 rounded-0">Cari</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rekomendasi" class="section-light py-5">
+      <div class="container py-4">
+        <h2 class="text-center section-title mb-5">Rekomendasi Rumah Untuk Mu</h2>
+        <div class="row g-3">
+          <div class="col-lg-4 col-md-6">
+            <article class="property-card">
+              <img src="Mask Group.png" alt="Rumah 1" />
+              <div class="property-body">
+                <h4>IDR.200.000.000</h4>
+                <p>Jl. Soekarno Hatta No.1</p>
+                <span class="status">Sewa</span>
+                <div class="specs">
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="bed.png" alt="" class="spec-icon" /><strong>3</strong></div>
+                    <div class="spec-label">Kamar Tidur</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="wc.png" alt="" class="spec-icon" /><strong>4</strong></div>
+                    <div class="spec-label">Kamar Mandi</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="global.png" alt="" class="spec-icon" /><strong>360m</strong></div>
+                    <div class="spec-label">Luas Rumah</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article class="property-card card-highlight">
+              <img src="Mask Group (1).png" alt="Rumah 2" />
+              <div class="property-body">
+                <h4>IDR.200.000.000</h4>
+                <p>Jl. Soekarno Hatta No.1</p>
+                <span class="status">Jual</span>
+                <div class="specs">
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="bed.png" alt="" class="spec-icon" /><strong>3</strong></div>
+                    <div class="spec-label">Kamar Tidur</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="wc.png" alt="" class="spec-icon" /><strong>4</strong></div>
+                    <div class="spec-label">Kamar Mandi</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="global.png" alt="" class="spec-icon" /><strong>360m</strong></div>
+                    <div class="spec-label">Luas Rumah</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article class="property-card">
+              <img src="Mask Group (2).png" alt="Rumah 3" />
+              <div class="property-body">
+                <h4>IDR.200.000.000</h4>
+                <p>Jl. Soekarno Hatta No.1</p>
+                <span class="status">Property Baru</span>
+                <div class="specs">
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="bed.png" alt="" class="spec-icon" /><strong>3</strong></div>
+                    <div class="spec-label">Kamar Tidur</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="wc.png" alt="" class="spec-icon" /><strong>4</strong></div>
+                    <div class="spec-label">Kamar Mandi</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="global.png" alt="" class="spec-icon" /><strong>360m</strong></div>
+                    <div class="spec-label">Luas Rumah</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article class="property-card">
+              <img src="rumah kiri.jpeg" alt="Rumah 4" />
+              <div class="property-body">
+                <h4>IDR.200.000.000</h4>
+                <p>Jl. Soekarno Hatta No.1</p>
+                <span class="status">Sewa</span>
+                <div class="specs">
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="bed.png" alt="" class="spec-icon" /><strong>3</strong></div>
+                    <div class="spec-label">Kamar Tidur</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="wc.png" alt="" class="spec-icon" /><strong>4</strong></div>
+                    <div class="spec-label">Kamar Mandi</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="global.png" alt="" class="spec-icon" /><strong>360m</strong></div>
+                    <div class="spec-label">Luas Rumah</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article class="property-card">
+              <img src="Mask Group (3).png" alt="Rumah 5" />
+              <div class="property-body">
+                <h4>IDR.200.000.000</h4>
+                <p>Jl. Soekarno Hatta No.1</p>
+                <span class="status">Sewa</span>
+                <div class="specs">
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="bed.png" alt="" class="spec-icon" /><strong>3</strong></div>
+                    <div class="spec-label">Kamar Tidur</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="wc.png" alt="" class="spec-icon" /><strong>4</strong></div>
+                    <div class="spec-label">Kamar Mandi</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="global.png" alt="" class="spec-icon" /><strong>360m</strong></div>
+                    <div class="spec-label">Luas Rumah</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <article class="property-card">
+              <img src="Mask Group (5).png" alt="Rumah 6" />
+              <div class="property-body">
+                <h4>IDR.200.000.000</h4>
+                <p>Jl. Soekarno Hatta No.1</p>
+                <span class="status">Sewa</span>
+                <div class="specs">
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="bed.png" alt="" class="spec-icon" /><strong>3</strong></div>
+                    <div class="spec-label">Kamar Tidur</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="wc.png" alt="" class="spec-icon" /><strong>4</strong></div>
+                    <div class="spec-label">Kamar Mandi</div>
+                  </div>
+                  <div class="spec-item">
+                    <div class="spec-top"><img src="global.png" alt="" class="spec-icon" /><strong>360m</strong></div>
+                    <div class="spec-label">Luas Rumah</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <p class="text-center mt-4">Lihat Lainnya...</p>
+      </div>
+    </section>
+
+    <section id="fitur" class="section-light pb-5">
+      <div class="container pb-4">
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-4">
+          <h2 class="section-title mb-0 fw-bold">Fitur Rumah</h2>
+          <button class="btn btn-success rounded-0 px-4 py-2 fw-bold d-flex align-items-center gap-2">Lihat Semua.. <i class="bi bi-chevron-right"></i></button>
+        </div>
+
+        <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="feature-track">
+                <img src="image 13.png" alt="fitur 1" />
+                <div class="feature-focus">
+                  <img src="image 17.png" alt="fitur 2" />
+                  <div class="feature-overlay text-center align-items-center">
+                    <h3 class="fw-bold mb-1">Kamar Tidur</h3>
+                    <p class="mb-1 text-white-50">Rumah minimalist Type-A2</p>
+                    <h5 class="fw-bold mb-3">IDR.200jt</h5>
+                    <button class="btn btn-success rounded-0 px-4 py-2 fw-bold">Lihat Rumah</button>
+                  </div>
+                </div>
+                <img src="image 18.png" alt="fitur 3" />
+                <img src="image 16.png" alt="fitur 4" />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="feature-track">
+                <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80" alt="fitur 5" />
+                <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80" alt="fitur 6" />
+                <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=800&q=80" alt="fitur 7" />
+                <img src="image 8.png" alt="fitur 8" />
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev custom-control" type="button" data-bs-target="#featureCarousel" data-bs-slide="prev">
+            <i class="bi bi-chevron-left" style="font-size: 1.5rem; -webkit-text-stroke: 1.5px; margin-right: 2px;"></i>
+          </button>
+          <button class="carousel-control-next custom-control" type="button" data-bs-target="#featureCarousel" data-bs-slide="next">
+            <i class="bi bi-chevron-right" style="font-size: 1.5rem; -webkit-text-stroke: 1.5px; margin-left: 2px;"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="contact-section py-5">
+      <div class="container py-5">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-5 text-white">
+            <h2 class="mb-4 fw-bold">Butuh Konsultasi..?<br />Silahkan kontak kami<br />Kami Siap Membantu</h2>
+            <div class="mb-4">
+              <p class="fw-bold mb-3 fs-5">Kontak</p>
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <i class="bi bi-building fs-5"></i>
+                <div class="small">Jl. Pelajar Pejuang 123 Majalaya Bandung<br />Indonesia</div>
+              </div>
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <i class="bi bi-telephone fs-5"></i>
+                <span class="small">022-6545-2041</span>
+              </div>
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <i class="bi bi-envelope fs-5"></i>
+                <span class="small">rumahimpian@gmail.com</span>
+              </div>
+              <p class="fw-bold mb-3 fs-5">Social Media</p>
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-facebook fs-5"></i>
+                <i class="bi bi-twitter fs-5"></i>
+                <i class="bi bi-instagram fs-5"></i>
+                <span class="small ms-1">Rumahimpian</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="contact-card">
+              <h3>ada pertanyaan..?</h3>
+              <form>
+                <input class="form-control mb-3" placeholder="Masukan email anda disini..." />
+                <textarea class="form-control mb-3" rows="3" placeholder="Pertanyaan Anda..."></textarea>
+                <button class="btn btn-success w-100 rounded-0 py-2 fw-bold">Kirim</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container d-flex justify-content-between align-items-center flex-wrap gap-3">
+        <div class="fw-bold d-flex align-items-center gap-2 text-white fs-5">
+          <img src="Group 1.png" alt="" width="30" />
+          Rumah Impian
+        </div>
+        <div class="footer-links text-white fw-bold">
+          <a href="#">Branda</a><a href="#layanan">Layanan</a><a href="#fitur">Fitur</a><a href="#kontak">Kontak</a><a href="#">Masuk</a>
+        </div>
+      </div>
+      <div class="footer-copy text-center text-white-50 small">
+        Copyright bg Creative Academy All Right Reserved.
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
